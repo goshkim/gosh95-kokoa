@@ -1,0 +1,119 @@
+.recommended-friends {
+  margin: 25px 0px;
+  padding: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+}
+.recommended-friends__title {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.recommended-friends span {
+  margin: 100px 0px;
+  text-align: center;
+  display: block;
+  font-size: 18px;
+  opacity: 0.7;
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+.open-chat i {
+  color: white;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 14px;
+}
+.open-spot__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: silver;
+}
+.open-spot__hashtags {
+  text-transform: uppercase;
+  color: gold;
+}
+.open-post__members {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__member-count {
+  opacity: 0.7;
+  font-size: 14px;
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 10px;
+  background-color: var(--font-color);
+  margin: 0px 5px;
+}
+
+.open-post__member-status {
+  color: #47cdfd;
+  font-size: 14px;
+}
+
+.open-post__photo {
+  position: relative;
+}
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 14px;
+}
+.open-post__heart-count span {
+  margin-left: 3px;
+}
+.ironman {
+  padding-top: 15px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: red;
+    transform: translateY(-5px) scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i,
+.open-post__heart-count:hover span {
+  cursor: pointer;
+  animation: heartBeat 1s linear infinite;
+  padding: 2px 4px;
+}

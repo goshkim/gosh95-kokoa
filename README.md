@@ -1,2 +1,3 @@
-# gosh95-kokoa
- kokoa-challenge
+# gosh-Kokoa-challenge
+
+gosh95 kokoa challenge iron-kokoa.

@@ -1,0 +1,39 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-between;*/
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.5s ease-in-out;
+  opacity: 0.9;
+  position: relative;
+}
+.icon-row__icon:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+.icon-row__icon i {
+  font-size: 40px;
+  margin: 0px 10px;
+}
+.icon-row__icon span {
+  margin-top: 18px;
+}
+.icon-row__dot {
+  background-color: red;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  display: flex;
+  position: absolute;
+  left: 120px;
+  top: 5px;
+}
