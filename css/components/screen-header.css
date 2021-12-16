@@ -1,40 +1,43 @@
 .screen-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px var(--horizontal-space);
-  margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px var(--horizontal-space);
+    margin-bottom: 15px;
 }
+
 .screen-header__title {
-  font-size: 32px;
-  font-weight: 600;
-  color: pink;
+    font-size: 32px;
+    font-weight: 600;
+    color: pink;
 }
+
 .screen-header__icons span {
-  margin-left: 20px;
-  position: relative;
-  color: pink;
+    margin-left: 20px;
+    position: relative;
+    color: pink;
 }
+
 .screen-header__icons__dot {
-  background-color: var(--yellow);
-  width: 6px;
-  height: 6px;
-  border-radius: 3px;
-  display: flex;
-  position: absolute;
-  left: 20px;
-  bottom: 20px;
+    background-color: var(--yellow);
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    display: flex;
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
 }
 
 @keyframes rotateCog {
-  from {
-    transform: none;
-  }
-  to {
-    transform: rotateZ(360deg);
-  }
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
 }
 
 .screen-header__icons .fa-cog:hover {
-  animation: rotateCog 1s linear infinite;
+    animation: rotateCog 1s linear infinite;
 }

@@ -1,69 +1,78 @@
 .settings__setting {
-  padding: 20px 0;
-  border-bottom: 1px solid rgb(180, 180, 180);
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
 .settings__setting:nth-child(3) {
-  border-bottom: 1px solid;
-  padding-bottom: 30px;
+    border-bottom: 1px solid;
+    padding-bottom: 30px;
 }
 
 .settings__setting i {
-  opacity: 0.8;
-  margin-right: 20px;
-  font-size: 18px;
+    opacity: 0.8;
+    margin-right: 20px;
+    font-size: 18px;
 }
 
 .settings__setting:last-child {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .settings__setting-column:last-child {
-  opacity: 0.5;
+    opacity: 0.5;
 }
+
 .settings__setting-column {
-  position: relative;
+    position: relative;
 }
+
 .settings__setting-column-new {
-  background-color: tomato;
-  width: 17px;
-  height: 17px;
-  border-radius: 8.5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
-  font-size: 13px;
-  position: absolute;
-  left: 120px;
-  bottom: 1px;
+    background-color: tomato;
+    width: 17px;
+    height: 17px;
+    border-radius: 8.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+    position: absolute;
+    left: 120px;
+    bottom: 1px;
 }
+
 .main-screen_search {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
+
 .main-screen_search input {
-  text-align: center;
-  padding: 10px;
-  color: white;
-  font-size: 18px;
-  background-color: #d70302;
-  border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  transition: 0.5s ease-in-out;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: #d70302;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    transition: 0.5s ease-in-out;
 }
+
 .main-screen_search input:focus {
-  border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
+
 .main-screen_search input::placeholder {
-  transition: 0.5s ease-in-out;
-  color: rgb(238, 127, 107);
+    transition: 0.5s ease-in-out;
+    color: rgb(238, 127, 107);
 }
+
 .main-screen_search input:focus::placeholder {
-  color: white;
+    color: white;
 }

@@ -1,69 +1,76 @@
 .more-screen .icon-row {
-  margin-top: 35px;
+    margin-top: 35px;
 }
 
 .more-suggestions {
-  margin-top: 50px;
-  border-top: var(--main-border);
-  padding-top: 40px;
+    margin-top: 50px;
+    border-top: var(--main-border);
+    padding-top: 40px;
 }
 
 .more-suggestions__title {
-  margin-bottom: 30px;
-  font-weight: 500;
-  color: var(--yellow);
+    margin-bottom: 30px;
+    font-weight: 500;
+    color: var(--yellow);
 }
+
 .more-suggestions__icons {
-  display: flex;
+    display: flex;
 }
+
 .more-suggestions__icon {
-  margin-right: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 .more-suggestions__icon-image {
-  width: 60px;
-  height: 60px;
-  background-color: var(--yellow);
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 10px;
-  cursor: pointer;
-  transition: 0.2s ease-in-out;
-  border: 3px solid rgba(0, 0, 0, 0.7);
+    width: 60px;
+    height: 60px;
+    background-color: var(--yellow);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border: 3px solid rgba(0, 0, 0, 0.7);
 }
 
 @keyframes ZOOM {
-  0% {
-    transform: scale(0.5);
-  }
+    0% {
+        transform: scale(0.5);
+    }
 
-  50% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(0.5);
-  }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(0.5);
+    }
 }
 
 .more-suggestions__icon-image:hover {
-  animation: ZOOM 1.5s infinite ease-in-out;
+    animation: ZOOM 1.5s infinite ease-in-out;
 }
+
 .more-suggestions__icon-image img {
-  width: 60px;
-  height: 60px;
-  border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
 }
+
 .more-suggestions__icon-image i {
-  font-size: 32px;
-  color: white;
+    font-size: 32px;
+    color: white;
 }
+
 .more-suggestions__icon-text {
-  color: var(--font-color);
+    color: var(--font-color);
 }
+
 .more-suggestions__icon-text {
-  color: rgb(202, 221, 202);
+    color: rgb(202, 221, 202);
 }
